@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="qedge">
+   <test name="functional"> 
+     <parameter name="browser" value="Chrome" />
+     <parameter name="browser" value="firefox" />
+     
+       <classes> 
+       
+       <class name="com.qedge.testCases.TC_TitleTest_001"/>
+       <class name="com.qedge.testCases.TC_RegisterForDemo_002"/>
+       <class name="com.qedge.testCases.TC_ProjectsPage_003"/>
+       <class name="com.qedge.testCases.TC_TotalNumOfCourses_004"/>
+       
+       </classes>    
+   </test>
+</suite>

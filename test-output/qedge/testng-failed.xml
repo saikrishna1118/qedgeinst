@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [qedge]">
+  <test thread-count="5" name="functional(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.qedge.testCases.TC_ProjectsPage_003">
+        <methods>
+          <include name="setUp"/>
+          <include name="projectpage"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qedge.testCases.TC_ProjectsPage_003 -->
+    </classes>
+  </test> <!-- functional(failed) -->
+</suite> <!-- Failed suite [qedge] -->
